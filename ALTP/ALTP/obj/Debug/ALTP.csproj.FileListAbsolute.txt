@@ -1,0 +1,11 @@
+C:\Users\dongd\source\repos\ALTP\ALTP\bin\Debug\ALTP.exe.config
+C:\Users\dongd\source\repos\ALTP\ALTP\bin\Debug\ALTP.exe
+C:\Users\dongd\source\repos\ALTP\ALTP\bin\Debug\ALTP.pdb
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.csproj.AssemblyReference.cache
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.csproj.SuggestedBindingRedirects.cache
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.Form1.resources
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.Properties.Resources.resources
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.csproj.GenerateResource.cache
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.csproj.CoreCompileInputs.cache
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.exe
+C:\Users\dongd\source\repos\ALTP\ALTP\obj\Debug\ALTP.pdb
