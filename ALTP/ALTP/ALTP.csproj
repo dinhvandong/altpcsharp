@@ -104,5 +104,11 @@
   <ItemGroup>
     <None Include="GamePlay_QuestKhung.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="btn_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="btn_stop.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
