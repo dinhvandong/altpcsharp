@@ -46,7 +46,7 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,7 +58,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.lblTimer = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -78,57 +77,66 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(338, 207);
+            this.textBox1.Location = new System.Drawing.Point(338, 200);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(538, 92);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Tỉnh nào không có núi và biển?";
+            this.textBox1.Text = "Cần cù thì bù?";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(338, 340);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(264, 68);
             this.button1.TabIndex = 1;
-            this.button1.Text = "A.";
+            this.button1.Text = "A. Siêng Năng";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.LimeGreen;
+            this.button2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(621, 340);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(255, 68);
             this.button2.TabIndex = 2;
-            this.button2.Text = "B. ";
+            this.button2.Text = "B. Thông minh";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(338, 451);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(264, 68);
             this.button3.TabIndex = 3;
-            this.button3.Text = "C.";
+            this.button3.Text = "C. Chăm Chỉ";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button4.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(621, 451);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(255, 68);
             this.button4.TabIndex = 4;
-            this.button4.Text = "D.";
+            this.button4.Text = "D. Ngu dốt";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox1
             // 
@@ -263,16 +271,16 @@
             this.pictureBox12.TabIndex = 16;
             this.pictureBox12.TabStop = false;
             // 
-            // label1
+            // lblTime
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(803, 269);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 29);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "16:00";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblTime.BackColor = System.Drawing.Color.Gold;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.Location = new System.Drawing.Point(776, 263);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(100, 29);
+            this.lblTime.TabIndex = 17;
+            this.lblTime.Text = "16:00";
+            this.lblTime.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -381,7 +389,7 @@
             this.pictureBox13.Image = global::ALTP.Properties.Resources.btn_play;
             this.pictureBox13.Location = new System.Drawing.Point(484, 551);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(101, 101);
+            this.pictureBox13.Size = new System.Drawing.Size(100, 100);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 26;
             this.pictureBox13.TabStop = false;
@@ -393,22 +401,11 @@
             this.pictureBox14.Image = global::ALTP.Properties.Resources.btn_stop;
             this.pictureBox14.Location = new System.Drawing.Point(633, 551);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(100, 101);
+            this.pictureBox14.Size = new System.Drawing.Size(100, 100);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 27;
             this.pictureBox14.TabStop = false;
             this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
-            // 
-            // lblTimer
-            // 
-            this.lblTimer.BackColor = System.Drawing.Color.Gold;
-            this.lblTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTimer.Location = new System.Drawing.Point(791, 101);
-            this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(184, 74);
-            this.lblTimer.TabIndex = 28;
-            this.lblTimer.Text = "label10";
-            this.lblTimer.Click += new System.EventHandler(this.lblTimer_Click);
             // 
             // Form1
             // 
@@ -416,7 +413,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ALTP.Properties.Resources.menu_BG;
             this.ClientSize = new System.Drawing.Size(1057, 683);
-            this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.label9);
@@ -427,7 +423,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblTime);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
@@ -445,7 +441,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Enabled = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -487,7 +483,7 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -499,7 +495,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.Label lblTimer;
     }
 }
 
